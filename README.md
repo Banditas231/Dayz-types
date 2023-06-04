@@ -1,5 +1,6 @@
 # Dayz-types
 Dayz types.xml
+
 To use them you need create new folder in DayZServer\mpmissions\dayzOffline.chernarusplus(NAME OF YOUR FOLDER) 
 So mine looks like this:
 
