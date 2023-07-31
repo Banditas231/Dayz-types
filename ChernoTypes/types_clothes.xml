@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-<type name="AirborneMask">
+    <type name="AirborneMask">
         <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -7738,4 +7738,4 @@
         <usage name="Town" />
         <usage name="Village" />
     </type>
-    </types>
+</types>
