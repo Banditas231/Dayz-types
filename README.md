@@ -1,4 +1,4 @@
-# Dayz-types [EN]
+# Dayz-types EN
 Dayz types.xml
 
 To use them you need create new folder in DayZServer\mpmissions\dayzOffline.chernarusplus(NAME OF YOUR FOLDER) 
@@ -33,7 +33,7 @@ Before making any changes always back up your server files !!!
 
 
 
-# [LT]
+# LT
 Dayz types.xml
 
 Norėdami juos naudoti, turite sukurti naują aplanką DayZServer\mpmissions\dayzOffline.chernarusplus(JŪSŲ ALANKO PAVADINIMAS) Taigi mano atrodo taip:⤵️
