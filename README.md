@@ -30,7 +30,7 @@ Last step: in DayZServer\mpmissions\dayzOffline.chernarusplus\db folder open typ
 
 Game need have that file anyway , or it not gonna work.
 Before making any changes always back up your server files !!!
--
+
 
 
 # [LT]
@@ -63,4 +63,4 @@ Paskutinis veiksmas: DayZServer\mpmissions\dayzOffline.chernarusplus\db aplanke 
 
 Žaidimas vis tiek turi turėti tą failą, kitaip jis neveiks.
 Prieš atlikdami bet kokius pakeitimus, visada sukurkite atsargines serverio failų kopijas!!!
---
+
