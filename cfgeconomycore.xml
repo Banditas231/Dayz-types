@@ -35,7 +35,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_types_startup" value="true"/>
 	</defaults>
 	<ce folder="CustomTypes/ChernoTypes">
-        <file name="types_clothes.xml" type="types" />
+        	<file name="types_clothes.xml" type="types" />
 		<file name="types_containers.xml" type="types" />
 		<file name="types_explosives.xml" type="types" />
 		<file name="types_food.xml" type="types" />
@@ -45,5 +45,5 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="types_vehiclesparts.xml" type="types" />
 		<file name="types_weapons.xml" type="types" />
 		<file name="types_books.xml" type="types" />
-    </ce>
+    	</ce>
 </economycore>
