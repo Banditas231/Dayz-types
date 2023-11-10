@@ -249,53 +249,62 @@
         <category name="containers" />
         <usage name="Industrial" />
     </type>
-    <type name="ChildBag_Blue">
-        <nominal>24</nominal>
-        <lifetime>28800</lifetime>
+    <type name="Cauldron">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>17</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
-        <usage name="Town" />
+        <usage name="SeasonalEvent" />
+    </type>
+    <type name="ChildBag_Blue">
+        <nominal>32</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>25</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="containers" />
+        <usage name="Village" />
         <usage name="School" />
         <value name="Tier1" />
         <value name="Tier2" />
-        <value name="Tier3" />
     </type>
     <type name="ChildBag_Green">
-        <nominal>24</nominal>
+        <nominal>32</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>17</min>
+        <min>25</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
-        <usage name="Town" />
+        <usage name="Village" />
         <usage name="School" />
         <value name="Tier1" />
         <value name="Tier2" />
-        <value name="Tier3" />
     </type>
     <type name="ChildBag_Red">
-        <nominal>24</nominal>
+        <nominal>32</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>17</min>
+        <min>25</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
-        <usage name="Town" />
+        <usage name="Village" />
         <usage name="School" />
         <value name="Tier1" />
         <value name="Tier2" />
-        <value name="Tier3" />
     </type>
     <type name="CourierBag">
         <nominal>0</nominal>
@@ -347,6 +356,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <usage name="Coast" />
+        <usage name="Hunting" />
         <value name="Tier2" />
         <value name="Tier3" />
         <value name="Tier4" />
@@ -362,9 +372,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <usage name="Coast" />
-        <value name="Tier2" />
-        <value name="Tier3" />
-        <value name="Tier4" />
+        <usage name="Hunting" />
     </type>
     <type name="DryBag_Green">
         <nominal>4</nominal>
@@ -377,6 +385,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <usage name="Coast" />
+        <usage name="Hunting" />
         <value name="Tier2" />
         <value name="Tier3" />
         <value name="Tier4" />
@@ -392,9 +401,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <usage name="Coast" />
-        <value name="Tier2" />
-        <value name="Tier3" />
-        <value name="Tier4" />
+        <usage name="Hunting" />
     </type>
     <type name="DryBag_Red">
         <nominal>7</nominal>
@@ -407,9 +414,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <usage name="Coast" />
-        <value name="Tier2" />
-        <value name="Tier3" />
-        <value name="Tier4" />
+        <usage name="Hunting" />
     </type>
     <type name="DryBag_Yellow">
         <nominal>7</nominal>
@@ -422,9 +427,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="containers" />
         <usage name="Coast" />
-        <value name="Tier2" />
-        <value name="Tier3" />
-        <value name="Tier4" />
+        <usage name="Hunting" />
     </type>
     <type name="DrysackBag_Green">
         <nominal>0</nominal>
@@ -969,7 +972,7 @@
         <value name="Tier4" />
     </type>
     <type name="PartyTent">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>3888000</lifetime>
         <restock>43200</restock>
         <min>6</min>
@@ -981,7 +984,7 @@
         <usage name="Town" />
     </type>
     <type name="PartyTent_Blue">
-        <nominal>10</nominal>
+        <nominal>7</nominal>
         <lifetime>3888000</lifetime>
         <restock>43200</restock>
         <min>6</min>
@@ -993,7 +996,7 @@
         <usage name="Town" />
     </type>
     <type name="PartyTent_Brown">
-        <nominal>10</nominal>
+        <nominal>7</nominal>
         <lifetime>3888000</lifetime>
         <restock>43200</restock>
         <min>6</min>
@@ -1005,7 +1008,7 @@
         <usage name="Town" />
     </type>
     <type name="PartyTent_Lunapark">
-        <nominal>10</nominal>
+        <nominal>7</nominal>
         <lifetime>3888000</lifetime>
         <restock>43200</restock>
         <min>6</min>
@@ -1092,7 +1095,7 @@
         <value name="Tier2" />
     </type>
     <type name="SmallProtectorCase">
-        <nominal>70</nominal>
+        <nominal>50</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
         <min>50</min>
