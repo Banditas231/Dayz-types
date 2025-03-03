@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-    <type name="ClaymoreMine">
+<type name="ClaymoreMine">
         <nominal>4</nominal>
         <lifetime>432000</lifetime>
         <restock>0</restock>
@@ -15,11 +15,12 @@
         <value name="Tier4" />
         <value name="Unique" />
     </type>
+    
     <type name="FlashGrenade">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27,6 +28,7 @@
         <category name="explosives" />
         <usage name="Military" />
     </type>
+    
     <type name="Grenade_ChemGas">
         <nominal>0</nominal>
         <lifetime>900</lifetime>
@@ -38,6 +40,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="explosives" />
     </type>
+    
     <type name="ImprovisedExplosive">
         <nominal>0</nominal>
         <lifetime>432000</lifetime>
@@ -49,6 +52,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
         <category name="explosives" />
     </type>
+    
     <type name="LandMineTrap">
         <nominal>10</nominal>
         <lifetime>604800</lifetime>
@@ -62,6 +66,7 @@
         <usage name="Military" />
         <value name="Tier4" />
     </type>
+    
     <type name="M18SmokeGrenade_Green">
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
@@ -74,6 +79,7 @@
         <category name="explosives" />
         <usage name="Military" />
     </type>
+    
     <type name="M18SmokeGrenade_Purple">
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
@@ -86,6 +92,7 @@
         <category name="explosives" />
         <usage name="Military" />
     </type>
+    
     <type name="M18SmokeGrenade_Red">
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
@@ -98,6 +105,7 @@
         <category name="explosives" />
         <usage name="Military" />
     </type>
+    
     <type name="M18SmokeGrenade_White">
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
@@ -110,6 +118,7 @@
         <category name="explosives" />
         <usage name="Military" />
     </type>
+    
     <type name="M18SmokeGrenade_Yellow">
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
@@ -122,11 +131,12 @@
         <category name="explosives" />
         <usage name="Military" />
     </type>
+    
     <type name="M67Grenade">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -136,6 +146,7 @@
         <value name="Tier3" />
         <value name="Tier4" />
     </type>
+    
     <type name="Plastic_Explosive">
         <nominal>5</nominal>
         <lifetime>432000</lifetime>
@@ -149,6 +160,7 @@
         <usage name="Industrial" />
         <value name="Unique" />
     </type>
+    
     <type name="RDG2SmokeGrenade_Black">
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
@@ -162,6 +174,7 @@
         <usage name="Military" />
         <usage name="Police" />
     </type>
+    
     <type name="RDG2SmokeGrenade_White">
         <nominal>10</nominal>
         <lifetime>14400</lifetime>
@@ -175,11 +188,12 @@
         <usage name="Military" />
         <usage name="Police" />
     </type>
+    
     <type name="RGD5Grenade">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -189,4 +203,5 @@
         <value name="Tier3" />
         <value name="Tier4" />
     </type>
-</types>
+    
+    </types>
